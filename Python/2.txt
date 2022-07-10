@@ -1,0 +1,11 @@
+2)
+main_str=input("enter the main string: ")
+        sub_str=input("enter the sub string: ")
+
+        if main_str=="" or sub_str=="":
+              print("no data is provided by the user in main string or sub string")
+    
+        else:
+              count_sub_string=main_str.count(sub_str)
+    
+        print(f"No of occurences of {sub_str} in {main_str} is {count_sub_string}")

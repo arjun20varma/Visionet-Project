@@ -1,0 +1,11 @@
+9)
+	file=open("test.txt","a")
+	str1=input("enter the first line: ")
+	str2=input("enter the second line: ")
+	file.write(str1)
+	file.write(str2)
+	file.close()
+	file=open("test.txt","r")
+	
+	for i in file:
+	    print(i)

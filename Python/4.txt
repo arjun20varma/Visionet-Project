@@ -1,0 +1,10 @@
+4)
+n=int(input("enter the no. of words: "))      
+        list_words=[]
+        for i in range(0,n):
+            ele=input()
+        list_words.append(ele)
+        print(list_words)
+        search_string=input("enter the string to be searched: ")
+        count_search_string=list_words.count(search_string)
+        print(f"No of occurrences of {search_string} in {list_words} is {count_search_string}")

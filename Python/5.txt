@@ -1,0 +1,17 @@
+5)
+n=int(input("enter the no. of words: "))      
+	list_words=[]
+	for i in range(0,n):
+    		ele=input()
+    		list_words.append(ele)
+   
+	list_set=set(list_words)
+	print(list_set)
+	unique_list=list(list_set)
+	print(unique_list)
+	a=[]
+	for x in unique_list:
+    		if len(x)>5:
+        	a.append(x)
+        
+	print(a)

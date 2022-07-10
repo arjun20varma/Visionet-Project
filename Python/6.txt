@@ -1,0 +1,12 @@
+6)
+n=int(input("enter the no. of words: "))      
+	list_words=[]
+	for i in range(0,n):
+            ele=input()
+            list_words.append(ele)
+            list_words.sort()
+            tup=tuple(list_words)
+    
+	print(tup)
+	lis=list(tup)
+	print(lis)

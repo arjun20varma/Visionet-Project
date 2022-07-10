@@ -1,0 +1,7 @@
+8)
+
+	dictionary={1:"One",2:"Two",3:"Three",4:"Four",5:"Five",6:"Six",7:"Seven",8:"Eight",9:"Nine",10:"Ten"}
+	print(dictionary.items())
+	dict_keys=int(input("enter the key value from 1 to 10: "))
+	d1=dictionary.get(dict_keys)
+	print(d1)
